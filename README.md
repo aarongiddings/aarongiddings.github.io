@@ -1,3 +1,3 @@
 # aarongiddings.github.io
 
-This is a test.
+PhD Student at the UVA School of Data Science researching action recognition models in sports.
