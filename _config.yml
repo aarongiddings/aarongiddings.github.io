@@ -3,6 +3,6 @@ locale: "en-US"
 title: Aaron Giddings's homepage
 title_separator: "-"
 name: &name "Aaron Giddings"
-description: &description "I am a PhD student at the University of Virginia School of Data Science pursuing action recognition research in sports."
+description: &description "I am a PhD student at the UVA School of Data Science pursuing action recognition research in sports and an Operations Analyst in the US Air Force."
 url: https://aarongiddings.github.io
 repository: aarongiddings/aarongiddings.github.io
