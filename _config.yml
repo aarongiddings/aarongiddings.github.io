@@ -1,5 +1,6 @@
 theme: jekyll-theme-minimal
 locale: "en-US"
+images:
 title: Aaron Giddings's homepage
 title_separator: "-"
 name: &name "Aaron Giddings"
