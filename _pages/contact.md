@@ -16,4 +16,4 @@ GitHub:
 https://github.com/aarongiddings
 
 LinkedIn:  
-[ADD_IF_DESIRED](https://www.linkedin.com/in/aaron-c-giddings/)
+https://www.linkedin.com/in/aaron-c-giddings/
