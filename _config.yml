@@ -3,10 +3,15 @@ locale: "en-US"
 
 title: "Aaron Giddings"
 name: "Aaron Giddings"
-description: "PhD Student at the University of Virginia School of Data Science working on computer vision, sports analytics, and machine learning."
+
+description: >
+  PhD Student  
+  University of Virginia School of Data Science  
+  Computer Vision • Sports Analytics • Scientific ML
 
 url: "https://aarongiddings.github.io"
 repository: "aarongiddings/aarongiddings.github.io"
 
 logo: "/images/2025-Aaron-Giddings.png"
+
 show_downloads: false
