@@ -1,39 +1,37 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
     <div class="wrapper">
       <header>
         {% if site.logo %}
-          <img src="{{ site.logo | relative_url }}" alt="Headshot" style="max-width: 180px; border-radius: 8px; margin-bottom: 1rem;">
+          <img src="{{ site.logo | relative_url }}" alt="Aaron Giddings headshot" style="max-width: 180px; border-radius: 8px; margin-bottom: 1rem;">
         {% endif %}
 
         <h1>{{ site.title }}</h1>
         <p>{{ site.description }}</p>
 
         <p>
+          <a href="mailto:{{ site.email }}">Email</a><br>
+          <a href="https://github.com/{{ site.github_username }}">GitHub</a><br>
           <a href="{{ site.google_scholar }}">Google Scholar</a><br>
           <a href="{{ site.linkedin }}">LinkedIn</a><br>
           <a href="{{ site.x }}">X</a><br>
           <a href="{{ site.bluesky }}">Bluesky</a>
         </p>
-
-        {% if site.github.is_user_page %}
-          <p><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
       </header>
 
       <section>
         {{ content }}
       </section>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
   </body>
 </html>
