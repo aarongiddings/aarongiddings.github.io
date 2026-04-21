@@ -7,7 +7,15 @@ name: "Aaron Giddings"
 description: >
   PhD Student  
   University of Virginia School of Data Science  
-  Computer Vision • Sports Analytics • Scientific ML
+
+  Computer Vision • Sports Analytics • Scientific ML  
+
+  <br>
+
+  [Google Scholar](https://scholar.google.com/citations?user=M58jQtEAAAAJ&hl=en&inst=13751854044476728232)  
+  [LinkedIn](https://www.linkedin.com/in/aaron-c-giddings/)  
+  [X](https://x.com/ac_giddings4ds)  
+  [Bluesky](https://bsky.app/profile/aaron-c-giddings.bsky.social)
 
 url: "https://aarongiddings.github.io"
 repository: "aarongiddings/aarongiddings.github.io"
@@ -17,4 +25,4 @@ logo: "/images/2025-Aaron-Giddings.png"
 show_downloads: false
 
 github_username: aarongiddings
-email: your_email@virginia.edu
+email: yez9wy@virginia.edu
