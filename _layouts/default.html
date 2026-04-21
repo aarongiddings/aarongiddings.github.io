@@ -7,51 +7,62 @@
     {% seo %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
   </head>
   <body>
     <div class="wrapper">
       <header>
-        {% if site.logo %}
-          <img src="{{ site.logo | relative_url }}" alt="Aaron Giddings headshot" style="max-width: 180px; border-radius: 8px; margin-bottom: 1rem;">
-        {% endif %}
+  {% if site.logo %}
+    <img src="{{ site.logo | relative_url }}" alt="Aaron Giddings headshot" class="sidebar-headshot">
+  {% endif %}
 
-        <h1>{{ site.title }}</h1>
-        <p>{{ site.description }}</p>
+  <h1>{{ site.title }}</h1>
 
-        <p>
-          <p style="line-height:1.8em;">
+  <div class="sidebar-profile">
+    <p class="profile-note">
+      PhD Student<br>
+      University of Virginia School of Data Science
+    </p>
 
-          <a href="mailto:{{ site.email }}">
-          <i class="fas fa-envelope"></i> Email
-          </a><br>
+    <p class="profile-note">
+      Computer Vision<br>
+      Sports Analytics<br>
+      Scientific ML
+    </p>
+  </div>
 
-          <a href="{{ site.google_scholar }}">
-          <i class="fas fa-graduation-cap"></i> Google Scholar
-          </a><br>
+  <div class="sidebar-links">
+    <a href="mailto:{{ site.email }}">
+      <i class="fas fa-envelope"></i> Email
+    </a><br>
 
-          <a href="{{ site.orcid }}">
-          <i class="fab fa-orcid"></i> ORCID
-          </a><br>
+    <a href="{{ site.google_scholar }}" target="_blank" rel="noopener noreferrer">
+      <i class="fas fa-graduation-cap"></i> Google Scholar
+    </a><br>
 
-          <a href="https://github.com/{{ site.github_username }}">
-          <i class="fab fa-github"></i> GitHub
-          </a><br>
+    <a href="{{ site.orcid }}" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-orcid orcid-icon"></i> ORCID
+    </a><br>
 
-          <a href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i> LinkedIn
-          </a><br>
+    <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-github"></i> GitHub
+    </a><br>
 
-          <a href="{{ site.x }}">
-          <i class="fab fa-x-twitter"></i> X
-          </a><br>
+    <a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a><br>
 
-          <a href="{{ site.bluesky }}">
-          <i class="fas fa-cloud"></i> Bluesky
-          </a>
+    <a href="{{ site.x }}" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-x-twitter"></i> X
+    </a><br>
 
-</p>
-        </p>
-      </header>
+    <a href="{{ site.bluesky }}" target="_blank" rel="noopener noreferrer">
+      <i class="fas fa-cloud"></i> Bluesky
+    </a>
+  </div>
+
+  <a href="/files/Aaron_Giddings_CV.pdf" class="cv-button">Download CV</a>
+</header>
 
       <section>
         {{ content }}
