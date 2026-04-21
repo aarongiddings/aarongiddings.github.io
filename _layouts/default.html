@@ -19,13 +19,37 @@
         <p>{{ site.description }}</p>
 
         <p>
-          <a href="mailto:{{ site.email }}">Email</a><br>
-          <a href="https://github.com/{{ site.github_username }}">GitHub</a><br>
-          <a href="{{ site.google_scholar }}">Google Scholar</a><br>
-          <a href="{{ site.orcid }}">ORCID</a><br>
-          <a href="{{ site.linkedin }}">LinkedIn</a><br>
-          <a href="{{ site.x }}">X</a><br>
-          <a href="{{ site.bluesky }}">Bluesky</a>
+          <p style="line-height:1.8em;">
+
+          <a href="mailto:{{ site.email }}">
+          <i class="fas fa-envelope"></i> Email
+          </a><br>
+
+          <a href="{{ site.google_scholar }}">
+          <i class="fas fa-graduation-cap"></i> Google Scholar
+          </a><br>
+
+          <a href="{{ site.orcid }}">
+          <i class="fab fa-orcid"></i> ORCID
+          </a><br>
+
+          <a href="https://github.com/{{ site.github_username }}">
+          <i class="fab fa-github"></i> GitHub
+          </a><br>
+
+          <a href="{{ site.linkedin }}">
+          <i class="fab fa-linkedin"></i> LinkedIn
+          </a><br>
+
+          <a href="{{ site.x }}">
+          <i class="fab fa-x-twitter"></i> X
+          </a><br>
+
+          <a href="{{ site.bluesky }}">
+          <i class="fas fa-cloud"></i> Bluesky
+          </a>
+
+</p>
         </p>
       </header>
 
