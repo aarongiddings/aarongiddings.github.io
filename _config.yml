@@ -1,29 +1,22 @@
 theme: jekyll-theme-minimal
-locale: "en-US"
-
 title: "Aaron Giddings"
-name: "Aaron Giddings"
+description: "PhD Student at the University of Virginia School of Data Science"
+logo: "/images/2025-Aaron-Giddings.png"
+show_downloads: false
+
+google_scholar: "https://scholar.google.com/citations?user=M58jQtEAAAAJ&hl=en&inst=13751854044476728232"
+linkedin: "https://www.linkedin.com/in/aaron-c-giddings/"
+x: "https://x.com/ac_giddings4ds"
+bluesky: "https://bsky.app/profile/aaron-c-giddings.bsky.social"
 
 description: >
   PhD Student  
   University of Virginia School of Data Science  
 
-  Computer Vision • Sports Analytics • Scientific ML  
-
-  <br>
-
-  🎓 [Google Scholar](https://scholar.google.com/citations?user=M58jQtEAAAAJ&hl=en&inst=13751854044476728232) 
-  💼 [LinkedIn](https://www.linkedin.com/in/aaron-c-giddings/)  
-  🐦 [X](https://x.com/ac_giddings4ds)  
-  🦋 [Bluesky](https://bsky.app/profile/aaron-c-giddings.bsky.social)
-  [ORCiD](https://orcid.org/my-orcid?orcid=0009-0007-5287-1624)
+  Computer Vision • Sports Analytics • Scientific ML
 
 url: "https://aarongiddings.github.io"
 repository: "aarongiddings/aarongiddings.github.io"
-
-logo: "/images/2025-Aaron-Giddings.png"
-
-show_downloads: false
 
 github_username: aarongiddings
 email: yez9wy@virginia.edu
