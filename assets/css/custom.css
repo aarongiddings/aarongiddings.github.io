@@ -12,6 +12,13 @@ body {
   background: #edf2f7;
   color: #2a2f36;
 }
+body {
+  background: linear-gradient(
+    180deg,
+    #edf2f7 0%,
+    #e6edf5 100%
+  );
+}
 
 .wrapper {
   background: transparent;
@@ -32,6 +39,7 @@ h1 {
   border-bottom: 3px solid var(--af-silver);
   padding-bottom: 6px;
 }
+
 
 /* ---------- General accent styling ---------- */
 
