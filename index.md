@@ -39,4 +39,4 @@ Exploring numerical solvers, WENO schemes, and PINNs for modeling Burgers’ equ
 
 [CV](/files/Giddings_UVA_CV.pdf) |  
 [GitHub](https://github.com/aarongiddings) |  
-[Email](yez9wy@virginia.edu)
+[Email](mailto:yez9wy@virginia.edu)
