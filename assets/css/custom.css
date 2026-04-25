@@ -1,3 +1,43 @@
+/* ---------- Air Force-inspired palette ---------- */
+
+:root {
+  --af-blue: #1f3a5f;
+  --af-blue-hover: #2c5282;
+  --af-silver: #c7ccd4;
+  --af-soft: #e6edf5;
+}
+
+/* ---------- General accent styling ---------- */
+
+h1, h2, h3 {
+  color: var(--af-blue);
+}
+
+a {
+  color: var(--af-blue);
+}
+
+a:hover {
+  color: var(--af-blue-hover);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--af-silver);
+}
+
+h2 {
+  border-bottom: 2px solid var(--af-silver);
+  padding-bottom: 4px;
+}
+
+/* ---------- Sidebar ---------- */
+
+header {
+  border-left: 6px solid var(--af-blue);
+  padding-left: 14px;
+}
+
 .sidebar-profile {
   margin-top: 1rem;
 }
@@ -15,7 +55,7 @@
 }
 
 .sidebar-links a:hover {
-  color: #0a66c2;
+  color: var(--af-blue);
   padding-left: 4px;
 }
 
@@ -25,24 +65,7 @@
 }
 
 .orcid-icon {
-  color: #a6ce39;
-}
-
-.cv-button {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.55rem 0.9rem;
-  border: 1px solid #d0d7de;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  color: #222;
-  transition: all 0.2s ease;
-}
-
-.cv-button:hover {
-  background-color: #f6f8fa;
-  color: #0a66c2;
+  color: var(--af-blue);
 }
 
 .profile-note {
@@ -55,4 +78,38 @@
   max-width: 180px;
   border-radius: 10px;
   margin-bottom: 1rem;
+  border: 2px solid var(--af-silver);
+}
+
+/* ---------- CV button ---------- */
+
+.cv-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--af-blue);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  background: var(--af-blue);
+  color: white !important;
+  transition: all 0.2s ease;
+}
+
+.cv-button:hover {
+  background-color: var(--af-blue-hover);
+  border-color: var(--af-blue-hover);
+  color: white !important;
+  transform: translateY(-1px);
+}
+
+/* ---------- Optional homepage elements ---------- */
+
+.tag {
+  background: var(--af-soft);
+  color: var(--af-blue);
+}
+
+.card:hover {
+  border-left: 4px solid var(--af-blue);
 }
