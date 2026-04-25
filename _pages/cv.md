@@ -8,4 +8,4 @@ permalink: /cv/
 
 Download my CV here:
 
-[Download CV (PDF)](/files/Aaron_Giddings_CV.pdf)
+[Download CV (PDF)](/files/Giddings_UVA_CV.pdf)
