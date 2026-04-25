@@ -28,6 +28,10 @@ header {
   padding: 14px;
   border-radius: 10px;
 }
+h1 {
+  border-bottom: 3px solid var(--af-silver);
+  padding-bottom: 6px;
+}
 
 /* ---------- General accent styling ---------- */
 
