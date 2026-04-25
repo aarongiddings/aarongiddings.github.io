@@ -203,6 +203,9 @@ header h1,
   header {
     margin-bottom: 24px;
   }
+  section {
+  padding: 36px 48px;
+}
 
   section {
     max-width: 100%;
