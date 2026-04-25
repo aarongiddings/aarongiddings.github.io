@@ -6,6 +6,22 @@
   --af-silver: #c7ccd4;
   --af-soft: #e6edf5;
 }
+/* ---------- Background styling ---------- */
+
+body {
+  background: #edf2f7;
+  color: #2a2f36;
+}
+
+.wrapper {
+  background: transparent;
+}
+
+section {
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(31, 58, 95, 0.08);
+}
 
 /* ---------- General accent styling ---------- */
 
