@@ -147,3 +147,64 @@ header {
 .card:hover {
   border-left: 4px solid var(--af-blue);
 }
+/* ---------- Fix sidebar + main content spacing ---------- */
+
+.wrapper {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 42px;
+}
+
+header {
+  width: auto;
+  float: none;
+  position: static;
+  box-sizing: border-box;
+}
+
+section {
+  width: auto;
+  float: none;
+  box-sizing: border-box;
+  max-width: 820px;
+}
+
+/* Make sidebar text wrap cleanly */
+header h1,
+.profile-note,
+.sidebar-links,
+.cv-button {
+  overflow-wrap: break-word;
+}
+
+/* Slightly reduce sidebar crowding */
+.sidebar-headshot {
+  max-width: 150px;
+}
+
+.sidebar-links {
+  line-height: 1.65;
+}
+
+.cv-button {
+  white-space: normal;
+  text-align: center;
+}
+
+/* Mobile/tablet: stack sidebar above content */
+@media screen and (max-width: 900px) {
+  .wrapper {
+    display: block;
+    max-width: 720px;
+  }
+
+  header {
+    margin-bottom: 24px;
+  }
+
+  section {
+    max-width: 100%;
+  }
+}
