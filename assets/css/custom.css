@@ -168,6 +168,7 @@ header {
 section {
   width: auto;
   float: none;
+  padding: 14px;
   box-sizing: border-box;
   max-width: 820px;
 }
