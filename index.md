@@ -8,7 +8,7 @@ title: Home
 PhD Student  
 University of Virginia School of Data Science
 
-I study **computer vision, machine learning, and sports analytics**, with a focus on detecting and modeling basketball actions from broadcast video. My work combines annotation pipelines, object detection, and temporal modeling to support automated recognition of player actions and game events.
+I study **computer vision, machine learning, and operations research**, with a focus on detecting and modeling actions from video data. My work combines annotation pipelines, object detection, and temporal modeling to support automated recognition of human actions and events.
 
 My broader interests include scientific machine learning, PDE-based modeling, and neural network methods for structured physical systems.
 
@@ -16,8 +16,9 @@ My broader interests include scientific machine learning, PDE-based modeling, an
 
 ## Research Interests
 
-- Computer vision for sports analytics
-- Action recognition in broadcast video
+- Computer vision for video data
+- Group action recognition
+- Concept generalization
 - Player tracking and event detection
 - Scientific machine learning
 - Physics-informed neural networks (PINNs)
@@ -25,9 +26,6 @@ My broader interests include scientific machine learning, PDE-based modeling, an
 ---
 
 ## Featured Work
-
-### NBA Action Recognition from Broadcast Video
-Developing deep learning pipelines that identify basketball actions such as jump shots, layups, dunks, rebounds, and screens from short NBA clips.
 
 ### Object Detection for Player Tracking
 Building annotation workflows and YOLO-based models to detect players, referees, the ball, and court structures from broadcast footage.
